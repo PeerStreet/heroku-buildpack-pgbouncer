@@ -21,6 +21,7 @@ fi
 mkdir -p /app/vendor/stunnel/var/run/stunnel/
 cat >> /app/vendor/stunnel/stunnel-pgbouncer.conf << EOFEOF
 foreground = yes
+delay = yes
 
 options = NO_SSLv2
 options = SINGLE_ECDH_USE
